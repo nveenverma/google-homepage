@@ -1,0 +1,108 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.header {
+  padding-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+  padding: 8px 8px;
+  vertical-align: top;
+}
+
+.app-launcher {
+  margin: 3px 8px 0;
+  height: 30px;
+}
+
+.btn-primary {
+  margin: auto;
+  padding: 5px 14px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+/* Container */
+.container {
+  height: 80%;
+  text-align: center;
+  padding-top: 9%;
+}
+
+/* Form */
+.input-group {
+  max-width: 50%;
+  margin: 20px auto 30px;
+  position: relative;
+}
+
+.form-control {
+  /* border-width: 1px 0; */
+  border-radius: 22.5px;
+  padding: 0 45px;
+  height: 40px;
+}
+
+.input-group>.form-control:not(:last-child) {
+  border-radius: 22.5px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.form-control:hover{
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-group>.form-control:focus {
+  z-index: 0;
+}
+
+/* New Form  */
+.search-icon, .mic-icon {
+  background-color: #fff;
+  border: 0;
+}
+
+.search-icon {
+  position: absolute;
+  left: 5px;
+  top:7px;
+}
+
+.mic-icon {
+  position: absolute;
+  right: 5px;
+  top:7px;
+}
+
+.mic, .fa-search {
+  height: 15px;
+}
+
+.btn-light {
+  margin: 0 5px;
+  font-size: 0.9em;
+  background-color: #f2f2f2;
+  color: grey;
+}
+
+/* Footer */
+footer nav {
+  background-color: #f2f2f2;
+  height: 40px;
+  border-top: 1px solid #eaeaea;
+}
+
+footer nav a {
+  padding: 8px 14px !important;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: grey;
+}
